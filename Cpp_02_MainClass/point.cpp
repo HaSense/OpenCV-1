@@ -29,7 +29,7 @@ typedef Point_<double> Point2d;
 typedef Point2i        Point;
 */
 int main() {
-	// 1. »ı¼ºÀÚ
+	// 1. ìƒì„±ì
 	Point pt1;             
 	cout << pt1 << endl;   // 0, 0
 
@@ -39,7 +39,7 @@ int main() {
 	Point pt2(10, 30);     
 	cout << pt2 << endl;   // 10, 30
 	
-	// 2. ¿¬»êÀÚ ¿À¹ö·Îµù
+	// 2. ì—°ì‚°ì ì˜¤ë²„ë¡œë”©
 	Point pt1;
 	pt1.x = 5; pt1.y = 10; // 5, 10
 	Point pt2(10, 30);     // 10, 30

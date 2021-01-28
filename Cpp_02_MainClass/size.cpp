@@ -30,7 +30,7 @@ int main() {
 	// 생성자와 멤버 변수 사용
 	Size sz1, sz2(10, 20);
 	cout << sz1 << endl;             // [0 x 0]
-	cout << sz2 << endl;			 // [10 x 20]
+	cout << sz2 << endl;		 // [10 x 20]
 
 	sz1.width = 5; sz1.height = 10;
 	cout << sz1 << endl;             // [5 x 10]

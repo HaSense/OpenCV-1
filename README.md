@@ -1,0 +1,28 @@
+# OpenCV
+- C++ (OpenCV 4.0.0, Visual Studio 2015)
+  - 환경변수(OPENCV_DIR): C:\opencv-4.0.0\bulid
+  - Debug 모드
+    - 추가 포함 디렉터리: $(OPENCV_DIR)\include
+    - 추가 라이브러리 디렉터리: $(OPENCV_DIR)\x64\vc15\lib
+    - 추가 종속성: opencv_world400d.lib
+  - Release 모드
+    - 추가 포함 디렉터리: $(OPENCV_DIR)\include
+    - 추가 라이브러리 디렉터리: $(OPENCV_DIR)\x54\vc15\lib
+    - 추가 종속성: opencv_world400.lib
+  - Ref: OpenCV4로 배우는 컴퓨터비전과 머신러닝(황선규저, 길벗, 2020)
+- Python
+  - Python Version: 3.8.5
+  - 가상환경: Anaconda 2020.11
+  - 환경
+     - opencv(libopencv, py-opencv -> cv2 모듈) 3.4.2
+     - jupyter 1.0.0 
+     - numpy 1.19.2
+     - pandas 1.1.3
+     - matplotlib 3.3.2
+     - scikit-learn 0.23.2
+     - scipy 1.5.2
+     - keras 2.3.1
+     - tensorflow 2.1.0 (GPU)
+  - Ref
+    - OpenCV-Python Tutorials (Official): https://docs.opencv.org/4.0.0/d6/d00/tutorial_py_root.html
+    - OpenCV-Python으로 배우는 영상 처리 및 응용 (정성환/배종욱저, 생능출판, 2020)

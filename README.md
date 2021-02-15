@@ -14,7 +14,7 @@
   - Python Version: 3.8.5
   - 가상환경: Anaconda 2020.11
   - 환경
-     - opencv(libopencv, py-opencv -> cv2 모듈) 3.4.2
+     - opencv(libopencv, py-opencv -> cv2 모듈) 3.4.2 -> 4.1.1
      - jupyter 1.0.0 
      - numpy 1.19.2
      - pandas 1.1.3
